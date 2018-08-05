@@ -1,0 +1,301 @@
+.panel-default {
+	border-style: solid;
+	border-color: darkgreen;
+	border-width: 2px;
+}
+
+.panel-title {
+	color: Darkblue;
+	font-weight: 600;
+}
+
+.panel-body {
+	text-align: left;
+	color: darkblue;
+	background-color: rgb(152, 217, 136);
+}
+
+.container {
+	color: hsl(19, 98%, 50%);
+	text-align: left;
+	text-shadow: 10;
+}
+
+.game {
+	border: solid;
+	border-width: 15px;
+	padding: 10px;
+	background-image: url("../images/crystal_background.jpeg");
+	background-size: 150%;
+}
+
+.target-number {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	background-color: hsl(19, 98%, 50%);
+	border-style: solid;
+	border-color: hsl(19, 98%, 50%);
+	border-width: 1px;
+	border-radius: 30px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+p2{
+ 	font-size: 30px;
+ 	margin-left: 120PX;
+}
+
+.crystal-images {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 100px;
+	align-items: center;
+}
+
+.your-score {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	background-color: rgb(40, 26, 163);
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	margin-left: 45px;
+}
+
+.score-number {
+	font-size: 40px;
+	color: darkblue;
+	text-align: center;
+	background-color: rgb(63, 240, 10);
+	margin-bottom: 5px;
+	border-radius: 20px;
+}
+
+.win-counter {
+	margin-top: 5px;
+	font-size: 40px;
+	color: white;
+	background-color: rgb(36, 36, 34);
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	margin-left: 50px;
+}
+
+.lose-counter {
+	margin-top: 5px;
+	font-size: 40px;
+	color: white;
+	background-color: rgb(36, 36, 34);
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+  
+@media screen and (max-width: 1024px) {
+	body{
+	background-color: blue
+	}
+	.panel-default {
+		border-style: solid;
+		border-color: darkgreen;
+		border-width: 1px;
+	}
+	
+	.panel-title {
+		color: Darkblue;
+		font-weight: 300;
+	}
+	
+	.panel-body {
+		text-align: left;
+		color: darkblue;
+		background-color: rgb(152, 217, 136);
+	}
+	
+	.container {
+		color: hsl(19, 98%, 50%);
+		text-align: left;
+	}
+	
+	.game {
+		border: solid;
+		border-width: 5px;
+		padding: 1px;
+		background-image: url("../images/crystal_background.jpeg");
+		background-size: 150%;
+	}
+	
+	.target-number {
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		background-color: hsl(19, 98%, 50%);
+		border-style: solid;
+		border-color: hsl(19, 98%, 50%);
+		border-width: 1px;
+		border-radius: 15px;
+		margin-bottom: 1px;
+		margin-left: 20px;
+	}
+	
+	p2{
+		 font-size: 15px;
+		 margin-left: 90PX;
+	}
+	
+	.crystal-images {
+		margin-top: 5px;
+		margin-bottom: 1px;
+		margin-left: 100px;
+		align-items: center;
+	}
+	
+	.your-score {
+		font-size: 15px;
+		color: white;
+		text-align: center;
+		background-color: rgb(40, 26, 163);
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
+		margin-left: 45px;
+	}
+	
+	.score-number {
+		font-size: 20px;
+		color: darkblue;
+		text-align: center;
+		background-color: rgb(63, 240, 10);
+		margin-bottom: 1px;
+		border-radius: 10px;
+	}
+	
+	.win-counter {1px;
+		font-size: 20px;
+		color: white;
+		background-color: rgb(36, 36, 34);
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
+		margin-left: 50px;
+	}
+	
+	.lose-counter {
+		margin-top: 5px;
+		font-size: 20px;
+		color: white;
+		background-color: rgb(36, 36, 34);
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 980px) {
+	body {
+	background-color: green
+	}
+	.panel-default {
+		border-style: solid;
+		border-color: darkgreen;
+		border-width: 1px;
+	}
+	
+	.panel-title {
+		color: Darkblue;
+		font-weight: 150;
+	}
+	
+	.panel-body {
+		text-align: left;
+		color: darkblue;
+		background-color: rgb(152, 217, 136);
+	}
+	
+	.container {
+		color: hsl(19, 98%, 50%);
+		text-align: left;
+	}
+	
+	.game {
+		border: solid;
+		border-width: 2px;
+		padding: 1px;
+		background-image: url("../images/crystal_background.jpeg");
+		background-size: 150%;
+	}
+	
+	.target-number {
+		font-size: 10px;
+		color: white;
+		text-align: center;
+		background-color: hsl(19, 98%, 50%);
+		border-style: solid;
+		border-color: hsl(19, 98%, 50%);
+		border-width: 1px;
+		border-radius: 5px;
+		margin-bottom: 1px;
+		margin-left: 10px;
+	}
+	
+	p2{
+		 font-size: 10px;
+		 margin-left: 60PX;
+	}
+	
+	.crystal-images {
+		margin-top: 5px;
+		margin-bottom: 1px;
+		margin-left: 70px;
+		align-items: center;
+	}
+	
+	.your-score {
+		font-size: 10px;
+		color: white;
+		text-align: center;
+		background-color: rgb(40, 26, 163);
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
+		margin-left: 35px;
+	}
+	
+	.score-number {
+		font-size: 10px;
+		color: darkblue;
+		text-align: center;
+		background-color: rgb(63, 240, 10);
+		margin-bottom: 1px;
+		border-radius: 5px;
+	}
+	
+	.win-counter {1px;
+		font-size: 10px;
+		color: white;
+		background-color: rgb(36, 36, 34);
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
+		margin-left: 30px;
+	}
+	
+	.lose-counter {
+		margin-top: 1px;
+		font-size: 10px;
+		color: white;
+		background-color: rgb(36, 36, 34);
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
+		margin-left: 20px;
+		margin-bottom: 5px;
+	}
+}

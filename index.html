@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>John Hopkins</title>
-
+	<title>Crystal Collector</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<h>Place holder not finished</h>
+
+<div class="container">
+	<div class="game">
+			<h1 class="text-left">Crystal Collector Game</h1>
+		<div class="row">
+			<div class="col-md-5">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+	            		<h1 class="panel-title">Instructions</h1>
+	            	</div>
+	          		<div class="panel-body">
+						<p>The game will pick a random number.</p>
+						<p>The 4 crystals are assigned random values at the start of each round and by clicking on a crystal you will add that crystal's value to your score.</p>
+						<p>Winning the game is done by matching your score to random number, if your score goes above the random number, you lose</p>
+					</div>
+				</div>
+		<div class="row">
+			<p2>Target Number</p2><div class="col-md-11 target-number"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-20 crystal-images"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 your-score">
+				<p>Your Score:</p>
+			<div class="col-md score-number"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 win-counter"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 lose-counter"></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+</html>
